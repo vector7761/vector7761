@@ -1,10 +1,10 @@
 services:
   - type: web
-    name: Text Leech Bot
+    name: SAINI TXT DIRECT 
     plan: free
     env: docker
     dockerfilePath: Dockerfile
-    repo: https://github.com/AshutoshGoswami24/text-leech-bot-for-render
+    repo: https://github.com/nikhilsaini098/Saini-txt-direct
     branch: main
     autoDeploy: false
     envVars:
