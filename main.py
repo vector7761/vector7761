@@ -35,7 +35,7 @@ async def show_random_emojis(message):
     emoji_message = await message.reply_text(' '.join(random.choices(emojis, k=1)))
     return emoji_message
 
-owner_id = 7212452634
+owner_id = 7836790905
 
 # Initialize the bot
 bot = Client(
@@ -51,7 +51,7 @@ bot = Client(
 cookies_file_path= "youtube_cookies.txt"
 
 
-auth_users = [7212452634,7341059064,5817712634,7958016772]
+auth_users = [7836790905,7212452634,8117793426,5817712634,7958016772,7341059064,7714608838,8007442798,7068000043,7062964338,6947024366,5682377441,7504558633,6440249117,7943069140,5486913681,1959279443,1511257208,1226915008,7080838404,6148865829]
 
 # Command to authorize a user
 @bot.on_message(filters.command("auth") & filters.private)
@@ -328,7 +328,7 @@ async def txt_handler(bot: Client, m: Message):
                 url   = response.json()['url']
                 
             elif "d1d34p8vz63oiq" in url or "sec1.pw.live" in url:
-             url = f"https://anonymousrajputplayer-9ab2f2730a02.herokuapp.com/pw?url={url}&token={raw_text4}"
+             url = f"https://anonymouspwplayerr-f996115ea61a.herokuapp.com/pw?url={url}&token={raw_text4}"
 
             elif "edge.api.brightcove.com" in url:
                 bcov = 'bcov_auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE3MjQyMzg3OTEsImNvbiI6eyJpc0FkbWluIjpmYWxzZSwiYXVzZXIiOiJVMFZ6TkdGU2NuQlZjR3h5TkZwV09FYzBURGxOZHowOSIsImlkIjoiZEUxbmNuZFBNblJqVEROVmFWTlFWbXhRTkhoS2R6MDkiLCJmaXJzdF9uYW1lIjoiYVcxV05ITjVSemR6Vm10ak1WUlBSRkF5ZVNzM1VUMDkiLCJlbWFpbCI6Ik5Ga3hNVWhxUXpRNFJ6VlhiR0ppWTJoUk0wMVdNR0pVTlU5clJXSkRWbXRMTTBSU2FHRnhURTFTUlQwPSIsInBob25lIjoiVUhVMFZrOWFTbmQ1ZVcwd1pqUTViRzVSYVc5aGR6MDkiLCJhdmF0YXIiOiJLM1ZzY1M4elMwcDBRbmxrYms4M1JEbHZla05pVVQwOSIsInJlZmVycmFsX2NvZGUiOiJOalZFYzBkM1IyNTBSM3B3VUZWbVRtbHFRVXAwVVQwOSIsImRldmljZV90eXBlIjoiYW5kcm9pZCIsImRldmljZV92ZXJzaW9uIjoiUShBbmRyb2lkIDEwLjApIiwiZGV2aWNlX21vZGVsIjoiU2Ftc3VuZyBTTS1TOTE4QiIsInJlbW90ZV9hZGRyIjoiNTQuMjI2LjI1NS4xNjMsIDU0LjIyNi4yNTUuMTYzIn19.snDdd-PbaoC42OUhn5SJaEGxq0VzfdzO49WTmYgTx8ra_Lz66GySZykpd2SxIZCnrKR6-R10F5sUSrKATv1CDk9ruj_ltCjEkcRq8mAqAytDcEBp72-W0Z7DtGi8LdnY7Vd9Kpaf499P-y3-godolS_7ixClcYOnWxe2nSVD5C9c5HkyisrHTvf6NFAuQC_FD3TzByldbPVKK0ag1UnHRavX8MtttjshnRhv5gJs5DQWj4Ir_dkMcJ4JaVZO3z8j0OxVLjnmuaRBujT-1pavsr1CCzjTbAcBvdjUfvzEhObWfA1-Vl5Y4bUgRHhl1U-0hne4-5fF0aouyu71Y6W0eg'
@@ -361,10 +361,10 @@ async def txt_handler(bot: Client, m: Message):
                 cmd = f'yt-dlp -f "{ytf}" "{url}" -o "{name}.mp4"'
 
             try:  
-                cc = f'**\n╭──────.★..─╮\n{str(count).zfill(3)}\n╰─..★.──────╯**\n\n**📝 Title:** {name1} \n**├── Extention :** @RamRamSa00.mkv\n**├── Resolution :** [{res}]\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n**📥 Extracted By :**\n   @ramramsa00╭──────────.✨..─╮\n\n      {CR}\n\n╰─..✨.──────────╯\n\n**<pre><code>━━━━━✦❣𓊈Ⅾ𝔯Ṃũ𝕤īcī𝗮𝚗𓊉❣✦━━━━━</code></pre>**'
-                cc1 = f'**\n╭──────.★..─╮\n{str(count).zfill(3)}\n╰─..★.──────╯**\n\n**📝 Title:** {name1} \n**├── Extention :** @RamRamSa00.pdf\n**├── Resolution :** [None]\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n**📥 Extracted By :**\n   @ramramsa00╭──────────.✨..─╮\n\n      {CR}\n\n╰─..✨.──────────╯\n\n**<pre><code>━━━━━✦❣𓊈Ⅾ𝔯Ṃũ𝕤īcī𝗮𝚗𓊉❣✦━━━━━</code></pre>**'
+                cc = f'**\n╭──────.★..─╮\n{str(count).zfill(3)}\n╰─..★.──────╯**\n\n**📝 Title:** {name1} \n**├── Extention :** @RamRamSa00.mkv\n**├── Resolution :** [{res}]\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n**📥 Extracted By :**\n   @ramramsa00╭──────────.✨..─╮\n\n      {CR}\n\n╰─..✨.──────────╯\n\n**<pre><code>━━━━✦❣𓊈Ⅾ𝔯Ṃũ𝕤īcī𝗮𝚗𓊉❣✦━━━━</code></pre>**'
+                cc1 = f'**\n╭──────.★..─╮\n{str(count).zfill(3)}\n╰─..★.──────╯**\n\n**📝 Title:** {name1} \n**├── Extention :** @RamRamSa00.pdf\n**├── Resolution :** [None]\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n**📥 Extracted By :**\n   @ramramsa00╭──────────.✨..─╮\n\n      {CR}\n\n╰─..✨.──────────╯\n\n**<pre><code>━━━━✦❣𓊈Ⅾ𝔯Ṃũ𝕤īcī𝗮𝚗𓊉❣✦━━━━</code></pre>**'
                 cczip = f'<pre><quote>——— ✦  {str(count).zfill(3)} ✦ ———</quote></pre>\n\n📁𝐓𝐢𝐭𝐥𝐞 » `{name1}` .zip\n\n<pre><code>📚 Course : {b_name}</code></pre>\n\n🌟𝐄𝐱𝐭𝐫𝐚𝐜𝐭𝐞𝐝 𝐁𝐲 » `{CR}`\n' ' @ramramsa00'  
-                ccimg = f'**\n╭──────.★..─╮\n{str(count).zfill(3)}\n╰─..★.──────╯**\n\n**📝 Title:** {name1} \n**├── Extention :** @RamRamSa00.jpg\n**├── Resolution :** [None]\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n**📥 Extracted By :**\n  @ramramsa00╭──────────.✨..─╮\n\n      {CR}\n\n╰─..✨.──────────╯\n\n**<pre><code>━━━━━✦❣𓊈Ⅾ𝔯Ṃũ𝕤īcī𝗮𝚗𓊉❣✦━━━━━</code></pre>**'
+                ccimg = f'**\n╭──────.★..─╮\n{str(count).zfill(3)}\n╰─..★.──────╯**\n\n**📝 Title:** {name1} \n**├── Extention :** @RamRamSa00.jpg\n**├── Resolution :** [None]\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n**📥 Extracted By :**\n  @ramramsa00╭──────────.✨..─╮\n\n      {CR}\n\n╰─..✨.──────────╯\n\n**<pre><code>━━━━✦❣𓊈Ⅾ𝔯Ṃũ𝕤īcī𝗮𝚗𓊉❣✦━━━━</code></pre>**'
                 ccyt = f'<pre><quote>——— ✦  {str(count).zfill(3)} ✦ ———</quote></pre>\n\n🎞️𝐓𝐢𝐭𝐥𝐞 » `{name1}` .mp4\n\n<a href="{url}">__**Click Here to Watch Stream**__</a>\n\n<pre><code>📚 Course : {b_name}</code></pre>\n\n🌟𝐄𝐱𝐭𝐫𝐚𝐜𝐭𝐞𝐝 𝐁𝐲 » `{CR}`\n''@ramramsa00'
                                  
                 if "drive" in url:
