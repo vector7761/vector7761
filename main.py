@@ -51,7 +51,7 @@ bot = Client(
 cookies_file_path= "youtube_cookies.txt"
 
 
-auth_us[7836790905,7212452634,8117793426,5817712634,7958016772,7341059064,7714608838,8007442798,7068000043,7062964338,6947024366,5682377441,7504558633,6440249117,7943069140,5486913681,1959279443,1511257208,1226915008,7080838404,6148865829]
+auth_user = [7836790905,7212452634,8117793426,5817712634,7958016772,7341059064,7714608838,8007442798,7068000043,7062964338,6947024366,5682377441,7504558633,6440249117,7943069140,5486913681,1959279443,1511257208,1226915008,7080838404,6148865829]
 
 # Command to authorize a user
 @bot.on_message(filters.command("auth") & filters.private)
@@ -207,7 +207,7 @@ async def youtube_to_txt(client, message: Message):
     # Remove the temporary text file after sending
     os.remove(txt_file)
 
-@bot.on_message(filters.command(["TEAM"with"]) )
+@bot.on_message(filters.command(["TEAM","JB"]) )
 async def txt_handler(bot: Client, m: Message):
     user_id = m.from_user.id
     if user_id not in auth_users:
